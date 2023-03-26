@@ -6,7 +6,7 @@ object Plugin {
     const val WEBSITE = "https://github.com/Ibotta/gradle-aspectj-pipeline-plugin"
     const val DESCRIPTION = "A Gradle plugin for Android projects which performs AspectJ weaving using Android's bytcode manipulation pipeline."
     const val DISPLAY_NAME = "Android AspectJ Gradle Plugin"
-    const val JVM_TARGET = "1.8"
+    const val JVM_TARGET = "11"
     private const val BUILD_NUMBER = "" // Dynamically updated by publishLocal.sh on Travis. Otherwise left as-is.
     const val VERSION = "1.4.1$BUILD_NUMBER"
     val TAGS = listOf("Android", "AspectJ", "Kotlin", "Java")
@@ -37,17 +37,17 @@ object Sdk {
 }
 
 object Versions {
-    const val ANDROID_BUILD_TOOLS_VERSION = "7.3.0"
-    const val APPCOMPAT_VERSION = "1.5.1"
+    const val ANDROID_BUILD_TOOLS_VERSION = "8.0.0-beta05"
+    const val APPCOMPAT_VERSION = "1.6.1"
     const val ASPECTJ_VERSION = "1.9.7"
     const val GRADLE_PLUGIN_PUBLISH_VERSION = "1.0.0-rc-1"
     const val JACOCO_ANDROID_VERSION = "0.2"
     const val JUNIT_VERSION = "5.9.1"
-    const val KOTLIN_VERSION = "1.7.10"
-    const val KOTLIN_DSL_VERSION = "3.1.0"
+    const val KOTLIN_VERSION = "1.8.10"
+    const val KOTLIN_DSL_VERSION = "4.0.6"
     const val KOTLINX_SERIALIZATION_RUNTIME_VERSION = "0.20.0"
     const val MOCKITO_CORE_VERSION = "4.8.0"
-    const val MOCKK_VERSION = "1.13.1"
+    const val MOCKK_VERSION = "1.13.4"
 }
 
 object SupportLibs {

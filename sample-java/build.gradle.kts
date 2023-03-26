@@ -15,12 +15,13 @@ android {
         targetSdkVersion(Sdk.TARGET_SDK_VERSION)
 
         applicationId = JavaApp.APP_ID
+        namespace = JavaApp.APP_ID
         versionCode = SampleAppCommon.APP_VERSION_CODE
         versionName = SampleAppCommon.APP_VERSION_NAME
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
     buildTypes {
         getByName("release") {
