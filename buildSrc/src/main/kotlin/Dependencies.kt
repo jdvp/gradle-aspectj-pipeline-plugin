@@ -37,7 +37,7 @@ object Sdk {
 }
 
 object Versions {
-    const val ANDROID_BUILD_TOOLS_VERSION = "8.0.0-beta05"
+    const val ANDROID_BUILD_TOOLS_VERSION = "8.1.0-alpha10"
     const val APPCOMPAT_VERSION = "1.6.1"
     const val ASPECTJ_VERSION = "1.9.7"
     const val GRADLE_PLUGIN_PUBLISH_VERSION = "1.0.0-rc-1"
